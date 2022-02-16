@@ -1,38 +1,29 @@
-body{ 
-    background-color: tan; 
-  } 
-h1{  
-      text-align: center; 
-  } 
-.header{ 
-      height: 40px; 
-      width: 300px;  
-  } 
-.red{ 
-      background-color: red; 
-  }  
- .green{ 
-      background-color: darkgreen; 
-  } 
-.blue{ 
-      background-color: blue; 
-  } 
-.main{ 
-      float: right; 
-      height: 40px; 
-      width: 100px;  
-} 
-.--red{ 
-      background-color: red; 
-  } 
-.--green{ 
-      background-color: green; 
-  } 
-.--blue{ 
-      background-color: blue; 
-  } 
- .--yellow{ 
-      background-color: yellow; 
-      height: 40px; 
-      width: 300px; 
-  } 
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+td{
+    border-left: 4px solid blue;
+    font-size: 40px;
+    
+}
+span{
+    color: red;
+
+}
+b{
+    color: black;
+}
+td:hover{
+    border-left: 4px solid green;
+}
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
